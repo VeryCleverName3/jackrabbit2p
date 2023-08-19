@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackrabbit 2</title>
+    <style>
+        canvas{
+            position: absolute;
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        #cursor{
+            position: absolute;
+            z-index: 9999;
+            background-color: lime;
+            top: calc(50% - 0.5vh);
+            left: calc(50% - 0.5vh);
+            height:1vh;
+            width:1vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="cursor"></div>
+</body>
+<script src="libs.js"></script>
+<script src="rendering.js"></script>
+<script src="graphics.js"></script>
+<script src="player.js"></script>
+<script src="ball.js"></script>
+<script src="game.js"></script>
+</html>
